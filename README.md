@@ -183,7 +183,7 @@ echo "https://target.com" | waybackurls | riya -a -stats
 
 ### 🤔 Why This Name?
 
-Okay so like... 😅 this name randomly popped into my head and the name reminded me of this friend from my teenage days (like 7-9 years back 💭). Her name was Riya and we used to play together back then 🎮✨.
+Okay so like... 😅 this name randomly popped into my head and the name reminded me of this friend from my teenage days (like 7-9 years back 💭 ). Her name was Riya and we used to play together back then 🎮✨.
 The games we played? Yeah... can't exactly disclose that in an open source README 💀😂 (let's just say it's better left to imagination 🙈). But yeah, good times! So I just named this tool after her as a little throwback to those days 🕰️💫.
 Fun fact: She probably has no idea a security tool is named after her now lmaooo 😭🤣
  ╰(*°▽°*)╯

@@ -1,1 +1,314 @@
+categories:
+  s:
+    description: "SQL/database files"
+    patterns:
+      - "\\.sql$"
+      - "\\.db$"
+      - "database\\.sql$"
+      - "dump\\.sql$"
+      - "db_backup\\.sql$"
+      - "\\.sqlite$"
+      - "\\.sqlite3$"
+      - "\\.mdb$"
+      - "\\.dump$"
+      - "\\.mysql$"
+      - "\\.pgsql$"
+      - "\\.psql$"
+      - "\\.sql\\.gz$"
+      - "\\.sql\\.tar\\.gz$"
+    examples:
+      - database.sql
+      - dump.sql
 
+  g:
+    description: "GraphQL endpoints"
+    patterns:
+      - "^/graphql$"
+      - "^/graphiql$"
+    examples:
+      - /graphql
+      - /graphiql
+
+  p:
+    description: "PHP source and config files"
+    patterns:
+      - "\\.php$"
+      - "config\\.php$"
+      - "wp-config\\.php$"
+      - "phpinfo\\.php$"
+    examples:
+      - config.php
+      - wp-config.php
+      - phpinfo.php
+
+  b:
+    description: "Backup and temporary files"
+    patterns:
+      - "\\.bak$"
+      - "\\.backup$"
+      - "\\.bkp$"
+      - "\\.old$"
+      - "\\.orig$"
+      - "\\.original$"
+      - "\\.save$"
+      - "\\.copy$"
+      - "\\.tmp$"
+      - "\\.temp$"
+      - "\\.swp$"
+      - "\\.swo$"
+      - "~$"
+      - "backup\\.zip$"
+      - "backup\\.sql$"
+      - "backup\\.tar$"
+      - "backup\\.tar\\.gz$"
+      - "index\\.php\\.bak$"
+      - "config\\.php\\.old$"
+    examples:
+      - backup.zip
+      - index.php.bak
+      - config.php.old
+
+  c:
+    description: "Configuration and environment files"
+    patterns:
+      - "\\.config$"
+      - "\\.conf$"
+      - "\\.cnf$"
+      - "\\.cfg$"
+      - "\\.ini$"
+      - "\\.yaml$"
+      - "\\.yml$"
+      - "\\.toml$"
+      - "\\.properties$"
+      - "\\.env$"
+      - "\\.env\\.local$"
+      - "\\.env\\.production$"
+      - "\\.env\\.development$"
+      - "\\.env\\.backup$"
+      - "config\\.json$"
+      - "app\\.config$"
+      - "web\\.config$"
+      - "application\\.yml$"
+      - "application\\.properties$"
+      - "\\.htaccess$"
+      - "\\.htpasswd$"
+    examples:
+      - .env
+      - config.json
+      - .htaccess
+
+  j:
+    description: "JavaScript and JSON files"
+    patterns:
+      - "\\.js(\\?.*)?$"
+      - "\\.json(\\?.*)?$"
+    examples:
+      - script.js
+      - package.json
+
+  l:
+    description: "Log and text files"
+    patterns:
+      - "\\.log$"
+      - "\\.logs$"
+      - "\\.txt$"
+      - "error\\.log$"
+      - "access\\.log$"
+      - "debug\\.log$"
+      - "error_log$"
+      - "php_errors\\.log$"
+      - "application\\.log$"
+      - "server\\.log$"
+    examples:
+      - error.log
+      - access.log
+
+  k:
+    description: "Certificate and key files"
+    patterns:
+      - "\\.pem$"
+      - "\\.key$"
+      - "\\.crt$"
+      - "\\.cer$"
+      - "\\.p12$"
+      - "\\.pfx$"
+      - "\\.jks$"
+      - "\\.keystore$"
+      - "\\.pub$"
+      - "\\.csr$"
+      - "server\\.key$"
+      - "server\\.crt$"
+      - "certificate\\.pem$"
+      - "private\\.key$"
+      - "public\\.key$"
+      - "ssl\\.crt$"
+      - "ssl\\.key$"
+      - "id_rsa$"
+      - "id_rsa\\.pub$"
+    examples:
+      - server.key
+      - certificate.pem
+
+  f:
+    description: "Framework-specific files and folders"
+    patterns:
+      - "wp-config\\.php$"
+      - "^wp-admin/"
+      - "^wp-includes/"
+      - "^wp-content/uploads/"
+      - "xmlrpc\\.php$"
+      - "readme\\.html$"
+      - "license\\.txt$"
+      - "^storage/logs/"
+      - "artisan$"
+      - "settings\\.py$"
+      - "local_settings\\.py$"
+      - "manage\\.py$"
+      - "config/database\\.yml$"
+      - "config/secrets\\.yml$"
+      - "config/credentials\\.yml\\.enc$"
+      - "package\\.json$"
+      - "^\\.npmrc$"
+      - "^\\.yarnrc$"
+      - "web\\.config$"
+      - "app\\.config$"
+      - "Web\\.Debug\\.config$"
+      - "appsettings\\.json$"
+    examples:
+      - wp-config.php
+      - artisan
+      - package.json
+
+  v:
+    description: "Version control and repository files"
+    patterns:
+      - "^\\.git(/|$)"
+      - "\\.gitignore$"
+      - "\\.gitattributes$"
+      - "^\\.git/config$"
+      - "^\\.git/HEAD$"
+      - "^\\.git/index$"
+      - "^\\.git/logs/"
+      - "^\\.svn(/|$)"
+      - "^\\.svn/entries$"
+      - "^\\.hg(/|$)"
+      - "^\\.bzr(/|$)"
+    examples:
+      - .git/
+      - .svn/
+
+  x:
+    description: "Archive or compressed files"
+    patterns:
+      - "\\.zip$"
+      - "\\.tar$"
+      - "\\.tar\\.gz$"
+      - "\\.tgz$"
+      - "\\.gz$"
+      - "\\.gzip$"
+      - "\\.rar$"
+      - "\\.7z$"
+      - "\\.bz2$"
+      - "\\.jar$"
+      - "\\.war$"
+      - "backup\\.zip$"
+      - "site\\.zip$"
+      - "website\\.zip$"
+      - "www\\.tar\\.gz$"
+    examples:
+      - backup.zip
+      - website.zip
+
+  d:
+    description: "Cloud and infrastructure config"
+    patterns:
+      - "^\\.aws/credentials$"
+      - "^\\.docker/config\\.json$"
+      - "docker-compose\\.yml$"
+      - "^Dockerfile$"
+      - "terraform\\.tfvars$"
+      - "ansible\\.cfg$"
+      - "^\\.azure/credentials$"
+      - "^\\.kube/config$"
+      - "kubernetes\\.yml$"
+      - "k8s\\.yml$"
+      - "^\\.dockerignore$"
+    examples:
+      - .aws/credentials
+      - Dockerfile
+
+  m:
+    description: "Admin and authentication paths"
+    patterns:
+      - "^/admin$"
+      - "^/admin/$"
+      - "administrator"
+      - "^/login$"
+      - "signin$"
+      - "^/auth$"
+      - "authentication"
+      - "^/oauth$"
+      - "^/sso$"
+      - "^/dashboard$"
+      - "^/panel$"
+      - "^/console$"
+      - "^/cpanel$"
+      - "^/phpmyadmin$"
+      - "^/adminer$"
+      - "^/wp-admin$"
+      - "^/admin/login$"
+      - "^/admin/dashboard$"
+    examples:
+      - /admin
+      - /login
+
+  r:
+    description: "Sensitive directories"
+    patterns:
+      - "^/\\.well-known/"
+      - "^/\\.well-known/security\\.txt$"
+      - "^/backup/"
+      - "^/backups/"
+      - "^/old/"
+      - "^/tmp/"
+      - "^/temp/"
+      - "^/test/"
+      - "^/dev/"
+      - "^/development/"
+      - "^/staging/"
+      - "^/private/"
+      - "^/internal/"
+      - "^/uploads/"
+      - "^/files/"
+      - "^/assets/"
+      - "^/include/"
+      - "^/includes/"
+      - "^/lib/"
+      - "^/libs/"
+      - "^/vendor/"
+      - "^/node_modules/"
+      - "^/logs/"
+      - "^/log/"
+    examples:
+      - /backup/
+      - /uploads/
+
+  o:
+    description: "Miscellaneous sensitive files"
+    patterns:
+      - "^robots\\.txt$"
+      - "^sitemap\\.xml$"
+      - "^security\\.txt$"
+      - "^crossdomain\\.xml$"
+      - "^README\\.md$"
+      - "^CHANGELOG\\.md$"
+      - "^TODO\\.md$"
+      - "^\\.DS_Store$"
+      - "^Thumbs\\.db$"
+      - "^desktop\\.ini$"
+      - "^composer\\.json$"
+      - "^composer\\.lock$"
+      - "^package-lock\\.json$"
+    examples:
+      - robots.txt
+      - README.md

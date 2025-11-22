@@ -1,7 +1,7 @@
 🚀 Project Name : Riya
 ===============
 
-### Riya : A grep like tool for filtering sensitive files, paths, and endpoints from URL lists with pattern-based categorization   
+#### Riya : A grep like tool for filtering sensitive files, paths, and endpoints from URL lists with pattern-based categorization   
 
  
 ![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-purple.svg)

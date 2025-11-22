@@ -103,7 +103,7 @@ cat urls.txt | riya -a -o results.txt
 ```bash
 git clone https://github.com/gigachad80/riya
 cd riya
-go build -o riya main.go
+go build -o riya riya.go
 ```
 
 OR 

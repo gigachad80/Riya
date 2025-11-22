@@ -190,7 +190,7 @@ Fun fact: She probably has no idea a security tool is named after her now lmaooo
 
 ### ⌚ Development Time
 
-From initial concept to feature-complete implementation, including pattern research, testing, and documentation, the development took approximately **6 hours** across multiple sessions.
+From initial concept to feature-complete implementation, including pattern research, testing, and documentation, the development took approximately **1 hr 31 min 58 sec** across multiple sessions.
 
 ### 🙃 Why I Created This
 
